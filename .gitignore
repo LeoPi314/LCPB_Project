@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ignore all jupyter checkpoints
+.ipynb_checkpoints
+.ipynb_checkpoints/*
+
+# do not upload root files
+*.root
