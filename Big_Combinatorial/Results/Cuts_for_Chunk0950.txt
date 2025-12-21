@@ -1,0 +1,1 @@
+( ( fNsigmaTPCka.abs() < 3.0 ) &  (                  ( (fPt <= 3.0) & (fNsigmaTOFka.abs() <= 8) ) |                  ( (fPt <= 3.0) & (fNsigmaTOFka == -999))                ) |  ( fNsigmaTPCpi.abs() < 4.0 ) &  (                  ( (fPt <= 3.0) & (fNsigmaTOFpi.abs() <= 12) ) |                  ( (fPt <= 3.0) & (fNsigmaTOFpi == -999))                ))
