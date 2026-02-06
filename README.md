@@ -1,10 +1,13 @@
 Contents and suggested viewing order:
 
 A) Real_Data_Analysis:
+
 	- 0) Data_Distribution: contains study on single track variables of the real data (a couple of chunks were used for this).
 							It justifies the cuts chosen for the single track variables in the first part of the analysis.
+							
 	- 1) Parallel_Pairs_Creation: contains the procedure with which couples of opposite electrical charge were created to reconstruct
 								  the original D0 or anti-D0 mother.
+								  
 	- 2) MC_Ratio_For_Fit: replicates on MC the cuts chosen in order to compute the efficiency and obtain the ratio for the reflected
 						   component.
 						   
