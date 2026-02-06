@@ -12,3 +12,6 @@ A) Real_Data_Analysis:
 						   component.
 						   
 	- 3) Pair_Analysis: filters data based on single track + pair variables cuts and plots the resulting invariant mass histogram.
+
+C) efficiency_pt_intervals_MC_cuts:
+	In this notebook there is the efficiency computation for different cuts from monte carlo analysis and on $p_T$ intervals. 
