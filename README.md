@@ -1,6 +1,11 @@
-How to read this repo:
+Contents and suggested viewing order:
 
-real_data -> 4 notebooks
-mc_data -> 2 ben + 1 tom
-achine_learning -> 4/5 leo
-
+A) Real_Data_Analysis:
+	- 0) Data_Distribution: contains study on single track variables of the real data (a couple of chunks were used for this).
+							It justifies the cuts chosen for the single track variables in the first part of the analysis.
+	- 1) Parallel_Pairs_Creation: contains the procedure with which couples of opposite electrical charge were created to reconstruct
+								  the original D0 or anti-D0 mother.
+	- 2) MC_Ratio_For_Fit: replicates on MC the cuts chosen in order to compute the efficiency and obtain the ratio for the reflected
+						   component.
+						   
+	- 3) Pair_Analysis: filters data based on single track + pair variables cuts and plots the resulting invariant mass histogram.
