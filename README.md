@@ -13,5 +13,11 @@ A) Real_Data_Analysis:
 						   
 	- 3) Pair_Analysis: filters data based on single track + pair variables cuts and plots the resulting invariant mass histogram.
 
+B) Monte_Carlo_Analysis:
+
+	- 0) MC_cut_analysis_single_tracks: contains study and cuts gridsearch for single track variables of the MC data.
+							
+	- 1) MC_cut_analysis_pair_variables: contains study and cut search for pair track variables of the MC data. Also contains invariant mass fit.
+	
 C) efficiency_pt_intervals_MC_cuts:
 	In this notebook there is the efficiency computation for different cuts from monte carlo analysis and on $p_T$ intervals. 
